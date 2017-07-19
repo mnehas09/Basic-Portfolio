@@ -1,4 +1,8 @@
 
+body{
+  width: 960px;
+}
+
 #header{
   position: fixed;
   top: 0;
@@ -19,19 +23,35 @@
   color: white;
 }
 
-#about{
-  top: 25%;
-  bottom: 25%;
-  right:75%;
-  width: 500px;
-  padding: 20px;
-  margin: 0;
-
+.acp{
+  float:right;
+  margin: 25px;
 }
 
- #Contact{
+.box{
+  background-image: url("/basic-portfolio/assets/images/pow-star.png");
+  box-sizing: border-box;
+  width: 1805px;
+  height: 800px;
+} 
+
+img{
   position: relative;
-  top: 25%;
+  bottom: -50%;
+  left: 20%;
+  top: 40%;
+}
+
+#my-info{
+  text-align: center;
+  font-family: Helvetica;
+  color: #777777;
+}
+
+
+#Contact{
+  position: relative;
+  top: 15%;
   bottom: 25%;
   left: 75%;
   color: #4aaaa5;
@@ -56,11 +76,6 @@ footer{
   border-top-width: 10px;
 }
 
-.box{
-  background-image: url("/basic-portfolio/assets/images/pow-star.png");
-  box-sizing: border-box;
-  width: 1805px;
-  height: 800px;
-}
+
 
 
