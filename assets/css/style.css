@@ -30,7 +30,7 @@ body{
 }
 
 .box{
-  background-image: url("/images/pow-star.png");
+  background-image: url("https://raw.githubusercontent.com/mnehas09/Basic-Portfolio/master/assets/images/pow-star.png");
   box-sizing: border-box;
   width: 1805px;
   height: 800px;
