@@ -24,6 +24,7 @@ body{
 }
 
 .acp{
+  color: #777777;
   float:right;
   margin: 25px;
 }
@@ -35,30 +36,40 @@ body{
   height: 800px;
 } 
 
-img{
-  position: relative;
-  bottom: -50%;
-  left: 20%;
-  top: 40%;
+#my-info{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  margin:50px;
+  padding: 30px;
+  right: 45%;
+  bottom: 75px;
+  box-sizing: border-box;
+  background-color: #ffffff;
 }
 
-#my-info{
-  text-align: center;
-  font-family: Helvetica;
+h1{
+  color: #4aaaa5;
+}
+
+.about-1{
   color: #777777;
+  font-family: arial;
 }
 
 
 #Contact{
   position: relative;
   top: 15%;
-  bottom: 25%;
-  left: 75%;
+  bottom: 75%;
+  left: 60%;
   color: #4aaaa5;
-  width: 250px;
+  width: 350px;
   padding: 20px;
-  margin: 0;
+  margin: 20px;
+  box-sizing: border-box;
   background-color: white;
+  text-align: center;
 }
 
 footer{
