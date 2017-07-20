@@ -30,7 +30,7 @@ body{
 }
 
 .box{
-  background-image: url("/basic-portfolio/assets/images/pow-star.png");
+  background-image: url("/images/pow-star.png");
   box-sizing: border-box;
   width: 1805px;
   height: 800px;
